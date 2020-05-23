@@ -129,7 +129,7 @@ function scene:create( event )
     instructionsButton = widget.newButton( 
         {
             -- Set its position on the screen relative to the screen size
-            x = display.contentWidth*2/8,
+            x = display.contentWidth*1.5/8,
             y = display.contentHeight*7/8,
 
             -- Insert the images here
@@ -175,7 +175,6 @@ function scene:show( event )
     -- Example: start timers, begin animation, play audio, etc.
     elseif ( phase == "did" ) then       
         
-
     end
 
 end -- function scene:show( event )
